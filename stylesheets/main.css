@@ -1,0 +1,167 @@
+/* 
+
+This file contains all your CSS style rules. 
+indent = 2 spaces, not tabs 
+
+Reference: http://www.w3schools.com/css/default.asp
+
+*/
+
+/* because every browser has a built in stylesheet we have to reset those properties that we want to manipulate later. We do this by setting those properties to zero for the entire HTML document and any other tag selectors we want to redefine from scratch*/
+
+html h1 {
+  margin: 0;
+}
+
+/* next we set up those properties that we want to apply everywhere that is visible on the page using the body selector. Notice the "font-family" */
+
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: #A98270;
+}
+
+/* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
+*/
+
+.container {
+  overflow: auto;
+  width: 900px;
+  margin: 0 auto;
+  background-color: #C2DDFF;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+}
+
+/* The next set of styles pretty much just "open up" the page and create white space */
+
+.header {
+  clear: both;
+  }
+ 	
+ #headshot {
+  width: 300px;
+  margin: 0 auto;
+  }
+
+.page_heading {
+    padding-top: 40px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: Arial;
+} 
+	
+.contact_information {
+    margin-left: 20px;
+}
+
+/* we want the validation pages to appear on the right side of the page inside the container */
+
+.validation_badge {
+    float: right;
+    margin-left: auto;
+    padding-right: 40px;
+    padding-top: 30px;
+  }
+
+.article {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: #F0FFAD;
+  width: 580px;
+  margin-top: 5px;
+  padding: 15px;
+  float: left;
+  margin-left: 40px;
+  margin-right: 30px;
+  }
+
+.article_heading {
+  width: 600px;
+  margin-left: 10px;
+  padding: 2px;
+  font-size: 16px;
+  
+}
+
+.sub_heading {
+  margin-left: 40px;
+  font-size: 16px;
+  color: black;
+}
+
+.sub_heading2 {
+  margin-left: 40px;
+  font-size: 16px;
+  color: black;
+}
+
+.article_content {
+  padding: 2px;
+  width: 550px;
+  margin-left: 10px;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.prompt_text {
+  font-size: 24px;
+  padding-left: 100px;
+  color: black;
+}
+.form_field_table {
+  margin-left: 30px;
+  border: none;
+}
+.form_field_table td {color: #00f;}
+
+form {
+  color: #00f;
+}
+.buttons {
+  float: right;
+}
+
+.float_right {
+  float: right;
+}
+
+nav {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: #E2DDFF;
+  float: left;
+  margin-left: 20px;
+  width: 160px;
+  margin-top: 45px;
+  margin-left: 40px;
+}
+
+.form {
+  margin-right: 50px;
+  margin-left: 250px;
+  margin-top: 50px;
+
+}
+
+.main { 
+  float: left;
+}
+/* finally, the footer stretches across the whole page width in an open, centered sort of way. */
+.footer {
+  clear: both;
+  font-size: .80em;
+  min-height: 40px;
+  text-align: center;
+  margin: 20px;
+
+}
+
+
+
