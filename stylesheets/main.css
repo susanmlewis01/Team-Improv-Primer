@@ -28,7 +28,7 @@ body {
 #container {
   overflow: none;
   width: 1000px;
-  height: 1800px;
+  height: 2500px;
   margin: 0 auto;
   background-color: #C2DDFF;
   -webkit-border-radius: 10px;
@@ -74,11 +74,22 @@ body {
 .content {
   background-color: white;
   width: 800px;
-  height: 1200px;
+  height: 1800px;
   margin top: 20px;
   overflow: auto;
   margin-left: 90px;
   margin-bottom: 20px;
+  /* Box Shadow */
+    /* Opera */
+    -o-box-shadow: 5px 5px 5px #666;
+    /* IE */
+    -ms-box-shadow: 5px 5px 5px #666;
+    /* Mozilla FireFox */
+    -moz-box-shadow: 5px 5px 5px #666;
+    /* Google Chrome */
+    -webkit-box-shadow: 5px 5px 5px #666;
+    /* Normal */
+    box-shadow: 5px 5px 5px #666;
 
 }
 
@@ -86,6 +97,7 @@ body {
 .section_heading {
   font-size: 18px;
   margin-left: 40px;
+  margin-right: 40px;
 }
 
 .section_content {
@@ -101,7 +113,7 @@ body {
   width: 998px;
   height: 50px;
   overflow: none;
-  margin-top: 50px;
+  margin-top: 140px;
 }
 
 
