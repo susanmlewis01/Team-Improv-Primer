@@ -30,6 +30,11 @@ body {
 
 }
 
+#audio {
+  display: hidden;
+}
+
+
 #container {
   overflow: none;
   width: 1000px;
