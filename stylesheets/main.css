@@ -57,7 +57,7 @@ body {
 
   width: 900px;
   height: 200px;
-  margin-top: 100px;
+  margin-top: 50px;
   overflow: none;
   text-align: justify;
   margin: auto;
@@ -115,16 +115,28 @@ body {
 
 
 .section_heading {
-  font-size: 18px;
-  margin-left: 40px;
-  margin-right: 40px;
+  font-size: 28px;
+  padding-bottom: 10px;
+ 
 }
 
 .section_content {
-  margin-bottom: 200px;
-  margin-left: 40px;
-  margin-right: 40px;
-  border-bottom: 1px solid;
+  margin-bottom: 10px;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #C2DDFF;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+table#t01 {
+    width: 100%;    
+    background-color: #f1f1c1;
 }
 
 #footer {
@@ -134,6 +146,24 @@ body {
   overflow: none;
   text-align: justify;
   margin: auto;
+
+}
+
+#copyright  {
+  padding-left: 50px;
+  f
+
+
+}
+
+#contact  {
+ 
+  padding-right: 50px;
+  font-size: 12px;
+
+
+}
+
 
 
 
