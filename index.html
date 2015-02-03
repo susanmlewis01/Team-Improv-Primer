@@ -9,7 +9,21 @@
   		p, li {color: black;}
   	</style>
   	<link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
-</body>
+</head>
+
+<body> 
+ <!-- this is music that i added but cannot get it to display it correctly still needs some work-->
+
+  <audio controls>
+    <source src="music/zen_music.ogg" type="audio/ogg">
+    <source src="music/zen_music.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+  </audio>
+
+
+<img src="http://bit.ly/1kX7D49" onClick="document.getElementById('audio_play').play(); return false;" />
+
+<img src="http://bit.ly/1mq0tIt" onClick="document.getElementById('audio_play').pause(); return false;" />
 	<div id="header">
 		<div id="title">
 			<p>Restorative Touch</p>
