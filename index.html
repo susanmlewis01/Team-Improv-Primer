@@ -12,13 +12,29 @@
 </head>
 
 <body> 
- <!-- this is music that i added but cannot get it to display it correctly still needs some work-->
- 	
-
-
-
 
 	<div id="header">
+
+		<!--hands image over the relax music player-->
+
+   
+    
+       
+   <!--This is the audio zen music-->
+
+		<div id="relaxmusic">
+			<img src="images/hands.jpg" alt="a pair of green plant hands">
+
+			
+			<audio controls>
+	          <source src="music/zen_music.ogg" type="audio/ogg">
+	   		  <source src="music/zen_music.mp3" type="audio/mpeg">
+	  		Your browser does not support the audio tag.
+	  		</audio>
+  		</div>
+  	
+
+
 		<div id="title">
 			<p>Restorative Touch Healing & Massage</P>
 		</div>
@@ -83,11 +99,34 @@
 			</section>
 			<section>
 				<div class="section_heading">
-					<p>Feedback:</p>
+					<!--<p>Customer Feedback:</p>-->
 					<a id="Feedback"></a>
 				</div>
 				<div class="section_content">
-					<p>embedded form with three questions</p>
+				<p>
+					<FORM>
+					<div id="wufoo-z14nrs5t1x9h7hx">
+					Fill out my <a href="https://teamimprov.wufoo.com/forms/z14nrs5t1x9h7hx">online form</a>.
+					</div>
+					<div id="wuf-adv" style="font-family:cursive;font-size: small;color:#a7a7a7;text-align:center;display:block;">HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.</div>
+					<script type="text/javascript">var z14nrs5t1x9h7hx;(function(d, t) {
+					var s = d.createElement(t), options = {
+					'userName':'teamimprov',
+					'formHash':'z14nrs5t1x9h7hx',
+					'autoResize':true,
+					'height':'539',
+					'async':true,
+					'host':'wufoo.com',
+					'header':'show',
+					'ssl':true};
+					s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+					s.onload = s.onreadystatechange = function() {
+					var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+					try { z14nrs5t1x9h7hx = new WufooForm();z14nrs5t1x9h7hx.initialize(options);z14nrs5t1x9h7hx.display(); } catch (e) {}};
+					var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+					})(document, 'script');</script>
+				 </FORM>
+					</p>
 				</div>
 			</section>
 			<section>
@@ -110,10 +149,10 @@
 				</div>
 				<div class="section_content">
 					<a id="Location"></a>
-					<iframe width='100%' height='520' frameborder='0' src='http://tomlike.cartodb.com/viz/f9ae4c12-aa3b-11e4-9d93-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+					<iframe width='100%' height='305' frameborder='0' src='http://tomlike.cartodb.com/viz/f9ae4c12-aa3b-11e4-9d93-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 				</div>
-			</div>
-		</section>
+				</div>
+			</section>
 		<div id ="footer">
 			<div id="copyright">
 				<p>&copy TEAM IMPROV</P>
@@ -133,6 +172,7 @@
 
 
 	</div>
+
 
 </body>
 </html>
