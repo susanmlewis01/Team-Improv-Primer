@@ -40,9 +40,13 @@ body {
   width: 1000px;
   height: 2500px;
   margin: 0 auto;
-  background-color: #C2DDFF;
- 
+  background-color: #C2DDFF; 
+}
 
+
+#relaxmusic img {
+  width:100px; 
+  height: 100px; 
 }
 
 #title {
@@ -117,17 +121,17 @@ body {
     box-shadow: 5px 5px 5px #666;
 
 }
-
+.wufoo .info{display:none}
 
 .section_heading {
   font-size: 28px;
-  padding-bottom: 10px;
+  padding-bottom: 0;
  
 }
 
 .section_content {
-  margin-bottom: 10px;
-
+  border: 1px solid;
+  margin: 10px;
 }
 
 table, th, td {
@@ -156,7 +160,6 @@ table#t01 {
 
 #copyright  {
   padding-left: 50px;
-  f
 
 
 }
