@@ -12,11 +12,7 @@
 </head>
 
 <body> 
- <!-- this is music that i added but cannot get it to display it correctly still needs some work-->
 
-<img src="http://bit.ly/1kX7D49" onClick="document.getElementById('audio_play').play(); return false;" />
-
-<img src="http://bit.ly/1mq0tIt" onClick="document.getElementById('audio_play').pause(); return false;" />
 	<div id="header">
 		<div id="title">
 			<p>Restorative Touch</p>
@@ -123,43 +119,39 @@
 
  <!-- this is a form  that i added but cannot get it to display it correctly still needs some work-->
 
- <FORM>
-    <P>
-    <LABEL for="firstname">First name: </LABEL>
-              <INPUT type="text" id="firstname"><BR>
-    <LABEL for="lastname">Last name: </LABEL>
-              <INPUT type="text" id="lastname"><BR>
-    <LABEL for="email">email: </LABEL>
-              <INPUT type="text" id="email"><BR>
-    <INPUT type="radio" name="sex" value="Male"> Male<BR>
-    <INPUT type="radio" name="sex" value="Female"> Female<BR>
-    <INPUT type="submit" value="Send"> <INPUT type="reset">
-    </P>
-
- <!-- I have no idea if this form will work or not-->
- 
- </FORM>
-	<div id="wufoo-z14nrs5t1x9h7hx">
-	Fill out my <a href="https://teamimprov.wufoo.com/forms/z14nrs5t1x9h7hx">online form</a>.
-	</div>
-	<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.</div>
-	<script type="text/javascript">var z14nrs5t1x9h7hx;(function(d, t) {
-	var s = d.createElement(t), options = {
-	'userName':'teamimprov',
-	'formHash':'z14nrs5t1x9h7hx',
-	'autoResize':true,
-	'height':'539',
-	'async':true,
-	'host':'wufoo.com',
-	'header':'show',
-	'ssl':true};
-	s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-	s.onload = s.onreadystatechange = function() {
-	var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-	try { z14nrs5t1x9h7hx = new WufooForm();z14nrs5t1x9h7hx.initialize(options);z14nrs5t1x9h7hx.display(); } catch (e) {}};
-	var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-	})(document, 'script');</script>
-
+		 <FORM>
+		    <P>
+		    <LABEL for="firstname">First name: </LABEL>
+		              <INPUT type="text" id="firstname"><BR>
+		    <LABEL for="lastname">Last name: </LABEL>
+		              <INPUT type="text" id="lastname"><BR>
+		    <LABEL for="email">email: </LABEL>
+		              <INPUT type="text" id="email"><BR>
+		    <INPUT type="radio" name="sex" value="Male"> Male<BR>
+		    <INPUT type="radio" name="sex" value="Female"> Female<BR>
+		    <INPUT type="submit" value="Send"> <INPUT type="reset">
+		    </P>
+			<div id="wufoo-z14nrs5t1x9h7hx">
+			Fill out my <a href="https://teamimprov.wufoo.com/forms/z14nrs5t1x9h7hx">online form</a>.
+			</div>
+			<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.</div>
+			<script type="text/javascript">var z14nrs5t1x9h7hx;(function(d, t) {
+			var s = d.createElement(t), options = {
+			'userName':'teamimprov',
+			'formHash':'z14nrs5t1x9h7hx',
+			'autoResize':true,
+			'height':'539',
+			'async':true,
+			'host':'wufoo.com',
+			'header':'show',
+			'ssl':true};
+			s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+			s.onload = s.onreadystatechange = function() {
+			var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+			try { z14nrs5t1x9h7hx = new WufooForm();z14nrs5t1x9h7hx.initialize(options);z14nrs5t1x9h7hx.display(); } catch (e) {}};
+			var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+			})(document, 'script');</script>
+		 </FORM>
 
 
 		</section>
@@ -173,6 +165,8 @@
 				<p>1771 Northwest Pettygrove Street #140, Portland, OR 97209</p>
 			</div>
 		</div>
+
+	<!--This is the audio zen music-->
 		<audio controls>
           <source src="music/zen_music.ogg" type="audio/ogg">
    		  <source src="music/zen_music.mp3" type="audio/mpeg">
